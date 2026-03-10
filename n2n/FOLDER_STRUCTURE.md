@@ -265,3 +265,15 @@ n2n-toolz/
     └── runtime-2026-03-10.log
 ```
 
+---
+
+## 3. Config Files Location
+
+| File | Location | Purpose |
+|---|---|---|
+| App settings | `~/.n2n-toolz/settings.json` | Global preferences |
+| Recent projects | `~/.n2n-toolz/recent.json` | Last 10 projects |
+| Deploy targets | `~/.n2n-toolz/deploy-targets.json` | Saved SSH/Docker targets |
+| Deploy history | `~/.n2n-toolz/deployment-history.json` | Past deploys |
+| SSH keys | `~/.n2n-toolz/keys/` | Stored SSH key paths |
+| Plugin registry cache | `~/.n2n-toolz/registry-cache.json` | Cached plugin search results |
